@@ -17,7 +17,7 @@
     </div>
   </div>
   <div class="col-12">
-    <label forname="email" text="Email"></label>
+    <label forname="email" text="Email">Email</label>
     <input type="email" class="form-control" name="email" id="email" required placeholder="example@example.com"
            [(ngModel)]="user.email" #email="ngModel"/>
     <div [hidden]="email.valid || email.pristine" class="alert alert-danger">
