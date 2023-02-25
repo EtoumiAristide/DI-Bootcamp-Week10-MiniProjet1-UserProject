@@ -35,7 +35,7 @@ export class PanelCounterComponent {
 
         //Renvoi de la valeur au composant parent
         this.userListOutput.emit(this.userList);
-        if (this.counter == 0) this.counter = this.userList.length
+        if (this.counter != 0) this.counter = this.userList.length
       },
       error: error => {
         console.error("There is an error !", error);
