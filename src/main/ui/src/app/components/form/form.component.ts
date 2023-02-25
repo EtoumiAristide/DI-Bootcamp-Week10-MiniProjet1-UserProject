@@ -39,7 +39,7 @@ export class FormComponent {
           console.log("Données insérées avec succès " + responseApi)
           //Incrementation de nombre de User
           this.userAdded++;
-          //Information de retour pour le parent
+          //Emission de l'Information de retour pour le parent
           this.userAddedEvent.emit(this.userAdded);
           //TODO: Afficher toast de succès dans le composant form en cas d'erreur du serveur lors de l'envoi
           //Réinitialisation des champs du formulaire

@@ -3,7 +3,7 @@
   <div class="col-md-6">
     <label forname="firstname">First Name</label>
     <input type="text" class="form-control" name="firstname" id="firstname" required [(ngModel)]="user.firstName"
-           #firstname="ngModel"/>
+           #firstname="ngModel" placeholder="First Name"/>
     <div [hidden]="firstname.valid || firstname.pristine" class="alert alert-danger">
       Ce champ est obligatoire
     </div>
@@ -11,7 +11,7 @@
   <div class="col-md-6">
     <label forname="lastname">Last Name</label>
     <input type="text" class="form-control" name="lastname" id="lastname" required [(ngModel)]="user.lastName"
-           #lastname="ngModel"/>
+           #lastname="ngModel" placeholder="Last Name"/>
     <div [hidden]="lastname.valid || lastname.pristine" class="alert alert-danger">
       Ce champ est obligatoire
     </div>
