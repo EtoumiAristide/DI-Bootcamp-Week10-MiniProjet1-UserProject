@@ -1,0 +1,78 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+####    API    ######
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/src/main/ui/dist
+/src/main/ui/tmp
+/src/main/ui/out-tsc
+/src/main/ui/bazel-out
+
+# Node
+/src/main/ui/node_modules
+/src/main/ui/npm-debug.log
+/src/main/ui/yarn-error.log
+
+# IDEs and editors
+/src/main/ui/.idea/
+/src/main/ui/.project
+/src/main/ui/.classpath
+/src/main/ui/.c9/
+/src/main/ui/*.launch
+/src/main/ui/.settings/
+/src/main/ui/*.sublime-workspace
+
+# Visual Studio Code
+/src/main/ui/.vscode/*
+/src/main/ui/!.vscode/settings.json
+/src/main/ui/!.vscode/tasks.json
+/src/main/ui/!.vscode/launch.json
+/src/main/ui/!.vscode/extensions.json
+/src/main/ui/.history/*
+
+# Miscellaneous
+/src/main/ui/.angular/cache
+/src/main/ui/.sass-cache/
+/src/main/ui/connect.lock
+/src/main/ui/coverage
+/src/main/ui/libpeerconnection.log
+/src/main/ui/testem.log
+/src/main/ui/typings
+
+# System files
+/src/main/ui/.DS_Store
+/src/main/ui/Thumbs.db
