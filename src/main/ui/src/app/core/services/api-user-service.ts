@@ -13,18 +13,18 @@ export class ApiUserService {
   }
 
   create(user: Users) {
-    return this.apiRequestService.post({endpoint: 'api/users', data: user});
+    return this.apiRequestService.post({endpoint: '/users', data: user});
   }
 
   update(user: Users) {
-    return this.apiRequestService.put({endpoint: 'api/users', data: user});
+    return this.apiRequestService.put({endpoint: '/users', data: user});
   }
 
   findAll() {
-    return this.apiRequestService.get("api/users");
+    return this.apiRequestService.get("/users");
   }
 
   delete(id: string) {
-    return this.apiRequestService.delete(`api/users/${id}`);
+    return this.apiRequestService.delete(`/users/${id}`);
   }
 }
